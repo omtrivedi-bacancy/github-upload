@@ -1,0 +1,96 @@
+###############################
+AS7050 Software Support Package
+###############################
+
+The Software Support Package for AS7050 sensor solutions provides
+software components, examples and documentations to enable users
+to quickly prototype their own solutions.
+
+Following software components are provided:
+* Chip Library: Configures and controls the AS7050 sensor and
+  delivers the output data from the sensor
+* Application Manager: Configures and controls the included Vital Signs
+  Applications for heart rate monitoring, SpO2 monitoring, and GSR measurement.
+* Sample Code: Demonstrates the usage of the Chip Library and the
+  Application Manager
+* Linux Driver: Sample device driver to control the AS7050 sensor
+  on Linux platforms using the Chip Library
+
+
+How to start
+============
+
+Follow the instructions of the 'AS7050 Software Support Package User Guide'
+(doc/AS7050_Software_Support_Package-User_Guide-v1.3.pdf).
+
+
+Supported platforms
+===================
+
+* Sample Code: Ready to use on Windows 10, Embedded Linux
+* Chip Library: Platform independent
+* Application Manager without Vital Signs Applications: Platform independent
+* Vital Signs Applications (HRM/PRV, SpO2):
+    * ARM Cortex M (with and without floating point unit)
+    * ARMv7-A Linux
+    * Windows 10
+
+*************
+Version 3.0
+*************
+
+- Replaced resistor sample code with GSR sample code
+- Updated sample code to use new Application Manager interface
+
+Software components:
+- Chip Library v1.2.0
+- Application Manager v3.0.2
+- BIO App Handler v3.1.1
+- Vital Signs Algorithms v3.0.0
+- Vital Signs Accelerometer v0.1.2
+- Linux Driver v0.1.0
+
+*************
+Version 2.2
+*************
+
+- Updated SpO2 sample code configuration to get better results
+- Added a sample code for resistor measurement
+- Added a sample code for PPG and ECG measurement without using Application
+  Manager
+
+Software components:
+- Chip Library v1.0.0
+- Application Manager v1.0.0
+- BIO App Handler v2.4.0
+- Vital Signs Algorithms v2.2.0
+- Linux Driver v0.0.3
+
+*************
+Version 2.1
+*************
+
+- Update for embedded Linux
+
+Software components:
+- Chip Library v1.0.0
+- Application Manager v1.0.0
+- BIO App Handler v2.3.0
+- Vital Signs Algorithms v2.2.0
+- Linux Driver v0.0.3
+
+*************
+Version 2.0
+*************
+
+- Support of embedded Linux
+- Added more ARM Cortex M libraries
+- Added OSAL template
+- Improved SpO2 configuration
+- Decreased CPU load of the sample applications
+
+Software components:
+- Chip Library v1.0.0
+- Application Manager v1.0.0
+- BIO App Handler v2.3.0
+- Vital Signs Algorithms v2.2.0

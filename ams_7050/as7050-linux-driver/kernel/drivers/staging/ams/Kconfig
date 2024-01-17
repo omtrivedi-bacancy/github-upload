@@ -1,0 +1,15 @@
+#
+# ams Vital Sensors
+#
+menu "ams VitalSensors"
+
+config AMS_AS7050
+	tristate "ams AS7050 device driver support"
+	depends on I2C && SYSFS
+	default n
+	help
+	  This drivers support the ams AS7050 vital sensor
+	  This driver can be built as a module. The module will be called
+	  ams-as7050-i2c.
+
+endmenu
